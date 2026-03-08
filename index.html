@@ -8,7 +8,7 @@
 
 <title>AURUM Project Management</title>
 
-<meta name="description" content="Supervisión externa de obra y control técnico para promotores, inversores y propietarios.">
+<meta name="description" content="Supervisión externa de obra en Mallorca. Control técnico, project management y gestión de proyectos para promotores, inversores y propietarios.">
 
 <style>
 
@@ -17,6 +17,7 @@ margin:0;
 font-family:Arial, Helvetica, sans-serif;
 background:#111;
 color:white;
+scroll-behavior:smooth;
 }
 
 /* HERO */
@@ -37,11 +38,13 @@ font-size:70px;
 letter-spacing:8px;
 color:#d4af37;
 margin:0;
+animation:fadeUp 1.5s ease;
 }
 
 .hero p{
 font-size:22px;
 max-width:700px;
+animation:fadeUp 2s ease;
 }
 
 .boton{
@@ -53,6 +56,12 @@ text-decoration:none;
 font-weight:bold;
 border-radius:6px;
 font-size:18px;
+transition:0.3s;
+animation:fadeUp 2.5s ease;
+}
+
+.boton:hover{
+transform:scale(1.05);
 }
 
 /* SECCIONES */
@@ -60,7 +69,7 @@ font-size:18px;
 section{
 max-width:1100px;
 margin:auto;
-padding:100px 20px;
+padding:120px 20px;
 }
 
 h2{
@@ -68,12 +77,12 @@ color:#d4af37;
 margin-bottom:40px;
 }
 
-/* SECCIÓN CON IMAGEN */
+/* IMAGEN SECCIÓN */
 
 .seccion-imagen{
 background-size:cover;
 background-position:center;
-padding:120px 20px;
+padding:160px 20px;
 position:relative;
 }
 
@@ -100,7 +109,13 @@ z-index:2;
 background:#1c1c1c;
 padding:35px;
 margin-bottom:25px;
-border-radius:8px;
+border-radius:10px;
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 30px rgba(0,0,0,0.5);
 }
 
 /* FOOTER */
@@ -127,6 +142,36 @@ text-decoration:none;
 box-shadow:0 4px 10px rgba(0,0,0,0.4);
 }
 
+/* ANIMACIONES */
+
+@keyframes fadeUp{
+
+0%{
+opacity:0;
+transform:translateY(40px);
+}
+
+100%{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+}
+
 </style>
 
 </head>
@@ -135,39 +180,37 @@ box-shadow:0 4px 10px rgba(0,0,0,0.4);
 <body>
 
 
-<!-- HERO -->
-
 <div class="hero">
 
 <h1>AURUM</h1>
 
 <p>
-Supervisión externa de obra y control técnico para promotores, inversores y propietarios.
+Supervisión externa de obra y control técnico para promotores, inversores y propietarios en Mallorca.
 </p>
 
-<a class="boton" href="mailto:Fullrenovation86@gmail.com">
+<a class="boton" href="mailto:aurumprojectmanagement@gmail.com">
 Solicitar supervisión de obra
 </a>
 
 </div>
 
 
-<!-- SERVICIOS -->
-
 <section>
 
 <h2>Servicios</h2>
 
-✔ Supervisión externa de obra<br>
-✔ Control de costes y certificaciones<br>
-✔ Coordinación de industriales<br>
-✔ Seguimiento de plazos<br>
+✔ Supervisión externa de obra<br><br>
+
+✔ Control de costes y certificaciones<br><br>
+
+✔ Coordinación de industriales<br><br>
+
+✔ Seguimiento de plazos<br><br>
+
 ✔ Informes técnicos para propiedad
 
 </section>
 
-
-<!-- BENEFICIOS -->
 
 <section class="seccion-imagen" style="background-image:url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5')">
 
@@ -192,8 +235,6 @@ Supervisión continua del avance real de los trabajos y coordinación con indust
 </section>
 
 
-<!-- PROYECTOS -->
-
 <section>
 
 <h2>Proyectos que superviso</h2>
@@ -213,8 +254,6 @@ Supervisión técnica para inversores y propietarios.
 </section>
 
 
-<!-- QUIEN SOY -->
-
 <section class="seccion-imagen" style="background-image:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd')">
 
 <div class="contenido">
@@ -225,14 +264,12 @@ Soy técnico especializado en supervisión externa de obra y gestión de proyect
 
 Trabajo ayudando a promotores, inversores y propietarios a controlar la ejecución de sus obras, evitando sobrecostes, retrasos y problemas de calidad.
 
-Mi objetivo es asegurar que cada proyecto se ejecute correctamente, con control técnico, transparencia y seguimiento continuo.
+Mi objetivo es asegurar que cada proyecto se ejecute correctamente con control técnico, transparencia y seguimiento continuo.
 
 </div>
 
 </section>
 
-
-<!-- CONTROL OBRA -->
 
 <section>
 
@@ -245,7 +282,7 @@ Supervisión independiente para promotores e inversores.
 
 <div class="card">
 <h3>Control de costes</h3>
-Análisis de presupuestos y certificaciones.
+Análisis de presupuestos y certificaciones durante la ejecución.
 </div>
 
 <div class="card">
@@ -269,4 +306,5 @@ WhatsApp
 
 
 </body>
+
 </html>
