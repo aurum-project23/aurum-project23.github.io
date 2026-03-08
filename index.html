@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 
-<meta name="description" content=" Aurum, project management, Supervisión externa de obra, control técnico y gestión de proyectos para promotores, inversores y propietarios.">
-
-<meta name="keywords" content="aurum, project management, control de obra, supervisión de obra, project management construcción, dirección técnica externa">
-
-
-  
 <meta charset="UTF-8">
-<title>AURUM Project Management</title>
-</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AURUM Project Management | Supervisión externa de obra</title>
+
+<meta name="description" content="Supervisión externa de obra, control técnico y gestión de proyectos para promotores, inversores y propietarios. Control de costes, calidad y plazos en proyectos de construcción.">
+
+<meta name="keywords" content="supervisión de obra, control de obra, project management construcción, dirección técnica externa, control técnico obra">
+
 <style>
 
 body{
@@ -18,7 +19,10 @@ margin:0;
 font-family:Arial, Helvetica, sans-serif;
 background:#111;
 color:white;
+line-height:1.6;
 }
+
+/* HERO PRINCIPAL */
 
 .hero{
 height:100vh;
@@ -30,19 +34,19 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
+padding:20px;
 }
 
 .hero h1{
 font-size:70px;
-color:#d4af37;
 letter-spacing:8px;
+color:#d4af37;
 margin:0;
 }
 
 .hero p{
 font-size:22px;
-color:white;
-margin-top:10px;
+max-width:700px;
 }
 
 .boton{
@@ -59,13 +63,34 @@ font-size:18px;
 section{
 max-width:1100px;
 margin:auto;
-padding:70px 20px;
+padding:90px 20px;
 }
 
-h2{
-color:#d4af37;
-margin-bottom:40px;
+/* FONDO CON IMAGEN */
+
+.fondo{
+background-image:url("https://images.unsplash.com/photo-1541888946425-d81bb19240f5");
+background-size:cover;
+background-position:center;
+position:relative;
 }
+
+.fondo::before{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.75);
+}
+
+.fondo div{
+position:relative;
+z-index:2;
+}
+
+/* CARDS */
 
 .card{
 background:#1c1c1c;
@@ -74,27 +99,52 @@ margin-bottom:25px;
 border-radius:8px;
 }
 
-.card h3{
-margin-top:0;
+/* TITULOS */
+
+h2{
+color:#d4af37;
+margin-bottom:30px;
 }
+
+/* FOOTER */
 
 footer{
 background:#000;
 text-align:center;
-padding:30px;
+padding:40px;
 color:#777;
 }
 
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+padding:16px 20px;
+border-radius:30px;
+font-weight:bold;
+text-decoration:none;
+box-shadow:0 4px 10px rgba(0,0,0,0.4);
+}
+
 </style>
+
 </head>
 
+
 <body>
+
+
+<!-- HERO -->
 
 <div class="hero">
 
 <h1>AURUM</h1>
 
-<p style="font-size:22px; max-width:700px; margin:auto;">
+<p>
 Supervisión externa de obra y control técnico para promotores, inversores y propietarios.
 </p>
 
@@ -102,23 +152,35 @@ Supervisión externa de obra y control técnico para promotores, inversores y pr
 Solicitar supervisión de obra
 </a>
 
-
-<p style="margin-top:20px; font-size:16px; color:#ddd;">
+<p style="margin-top:20px;">
 Control técnico independiente para asegurar calidad, costes y plazos en proyectos de construcción.
 </p>
 
-<div style="margin-top:40px; font-size:18px;">
-<b>Servicios</b><br><br>
+</div>
+
+
+<!-- SERVICIOS -->
+
+<section>
+
+<h2>Servicios</h2>
 
 ✔ Supervisión externa de obra<br>
 ✔ Control de costes y certificaciones<br>
 ✔ Coordinación de industriales<br>
 ✔ Seguimiento de plazos<br>
 ✔ Informes técnicos para propiedad
-  <section style="margin-top:60px;">
-<h2>Por qué contratar supervisión externa de obra</h2>
 
-<div style="margin-top:20px; font-size:18px;">
+</section>
+
+
+<!-- BENEFICIOS -->
+
+<section class="fondo">
+
+<div>
+
+<h2>Por qué contratar supervisión externa de obra</h2>
 
 <b>Control real de costes</b><br>
 Evita desviaciones económicas y certificaciones incorrectas durante la obra.<br><br>
@@ -133,34 +195,38 @@ Identificación de errores constructivos antes de que se conviertan en sobrecost
 Supervisión continua del avance real de los trabajos y coordinación con industriales.
 
 </div>
-</section>
-</div>
 
-</div>
-</div>
+</section>
+
+
+<!-- PROYECTOS -->
 
 <section>
-<section style="margin-top:60px;">
-<h2>Proyectos que superviso</h2>
-  <div style="margin-top:20px; font-size:18px;">
 
-✓ Viviendas unifamiliares<br>
+<h2>Proyectos que superviso</h2>
+
+<b>Viviendas unifamiliares</b><br>
 Supervisión de ejecución, control de certificaciones y seguimiento de plazos.<br><br>
 
-✓ Reformas integrales<br>
+<b>Reformas integrales</b><br>
 Coordinación de industriales y control técnico durante toda la obra.<br><br>
 
-✓ Promociones residenciales<br>
+<b>Promociones residenciales</b><br>
 Control externo para promotores durante la ejecución del proyecto.<br><br>
 
-✓ Proyectos de inversión inmobiliaria<br>
+<b>Proyectos de inversión inmobiliaria</b><br>
 Supervisión técnica para inversores y propietarios.
 
-</div>
-<section style="margin-top:60px;">
-<h2>Quién soy</h2>
+</section>
 
-<div style="margin-top:20px; font-size:18px;">
+
+<!-- QUIEN SOY -->
+
+<section class="fondo">
+
+<div>
+
+<h2>Quién soy</h2>
 
 Soy técnico especializado en supervisión externa de obra y gestión de proyectos de construcción.
 
@@ -169,72 +235,65 @@ Trabajo ayudando a promotores, inversores y propietarios a controlar la ejecuci�
 Mi objetivo es asegurar que cada proyecto se ejecute correctamente, con control técnico, transparencia y seguimiento continuo.
 
 </div>
+
 </section>
-<div style="margin-top:20px; font-size:18px;">
 
-<b>Vivienda unifamiliar</b><br>
-Supervisión de ejecución, control de certificaciones y seguimiento de plazos.<br><br>
 
-<b>Reformas integrales</b><br>
-Coordinación de industriales, control de calidad y optimización de costes.<br><br>
+<!-- CONTROL DE OBRA -->
 
-<b>Promociones residenciales</b><br>
-Control técnico externo para propiedad o inversores.
+<section>
 
-</div>
-</section>
 <h2>Dirección y control externo de obras</h2>
 
 <div class="card">
 <h3>Control de obra externo</h3>
-<p>Supervisión independiente para promotores, inversores y empresas que necesitan control real sobre costes, plazos y ejecución.</p>
+Supervisión independiente para promotores, inversores y empresas que necesitan control real sobre costes, plazos y ejecución.
 </div>
 
 <div class="card">
 <h3>Control de costes</h3>
-<p>Análisis de presupuestos, certificaciones y desviaciones económicas durante la ejecución de obra.</p>
+Análisis de presupuestos, certificaciones y desviaciones económicas durante la ejecución de obra.
 </div>
 
 <div class="card">
 <h3>Gestión de cambios de proyecto</h3>
-<p>Evaluación técnica y económica de modificaciones de proyecto durante la obra.</p>
+Evaluación técnica y económica de modificaciones de proyecto durante la obra.
 </div>
 
 </section>
 
+
+<!-- CONTACTO -->
+
 <section>
 
-<h2>Sobre AURUM</h2>
+<h2>Contacto</h2>
 
-<p>
-AURUM Project Management ofrece supervisión independiente de proyectos de construcción,
-ayudando a promotores e inversores a mantener control sobre costes, plazos y calidad de ejecución.
-</p>
+Email: Fullrenovation86@gmail.com
+
+<br><br>
+
+También puedes contactar directamente por WhatsApp para consultas rápidas sobre tu proyecto.
 
 </section>
 
+
+<!-- FOOTER -->
+
 <footer>
 
-AURUM Project Management
+AURUM Project Management<br>
+Supervisión externa de obra y control técnico en construcción
 
 </footer>
-<!-- Botón WhatsApp flotante -->
 
-<a href="https://wa.me/34697368317" 
-style="
-position:fixed;
-bottom:25px;
-right:25px;
-background:#25D366;
-color:white;
-padding:16px 20px;
-border-radius:30px;
-font-weight:bold;
-text-decoration:none;
-box-shadow:0 4px 10px rgba(0,0,0,0.4);
-font-family:Arial;
-">
+
+<!-- BOTON WHATSAPP -->
+
+<a class="whatsapp" href="https://wa.me/34697368317">
 WhatsApp
 </a>
+
+
 </body>
 </html>
