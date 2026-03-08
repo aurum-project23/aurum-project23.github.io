@@ -13,68 +13,68 @@ background:#111;
 color:white;
 }
 
-header{
-background:#000;
-padding:80px 20px;
+.hero{
+height:100vh;
+background-image:url("https://images.unsplash.com/photo-1503387762-592deb58ef4e");
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
 text-align:center;
 }
 
-header h1{
-font-size:60px;
-letter-spacing:6px;
+.hero h1{
+font-size:70px;
 color:#d4af37;
+letter-spacing:8px;
 margin:0;
 }
 
-header p{
+.hero p{
+font-size:22px;
+color:white;
 margin-top:10px;
-color:#ccc;
+}
+
+.boton{
+margin-top:30px;
+padding:18px 35px;
+background:#d4af37;
+color:black;
+text-decoration:none;
+font-weight:bold;
+border-radius:6px;
 font-size:18px;
 }
 
 section{
-max-width:1000px;
+max-width:1100px;
 margin:auto;
-padding:60px 20px;
+padding:70px 20px;
 }
 
 h2{
 color:#d4af37;
-margin-bottom:30px;
+margin-bottom:40px;
 }
 
 .card{
 background:#1c1c1c;
-padding:30px;
+padding:35px;
 margin-bottom:25px;
 border-radius:8px;
 }
 
 .card h3{
 margin-top:0;
-color:#fff;
-}
-
-.boton{
-display:inline-block;
-margin-top:30px;
-padding:16px 30px;
-background:#d4af37;
-color:black;
-text-decoration:none;
-font-weight:bold;
-border-radius:5px;
-}
-
-.sobre{
-background:#000;
-padding:60px 20px;
 }
 
 footer{
 background:#000;
-padding:30px;
 text-align:center;
+padding:30px;
 color:#777;
 }
 
@@ -83,10 +83,17 @@ color:#777;
 
 <body>
 
-<header>
+<div class="hero">
+
 <h1>AURUM</h1>
+
 <p>Project Management & External Construction Control</p>
-</header>
+
+<a class="boton" href="mailto:Fullrenovation86@gmail.com">
+Solicitar supervisión de obra
+</a>
+
+</div>
 
 <section>
 
@@ -107,26 +114,23 @@ color:#777;
 <p>Evaluación técnica y económica de modificaciones de proyecto durante la obra.</p>
 </div>
 
-<a class="boton" href="mailto:Fullrenovation86@gmail.com">Contactar</a>
-
 </section>
 
-<section class="sobre">
+<section>
 
 <h2>Sobre AURUM</h2>
 
 <p>
-AURUM Project Management ofrece dirección y control externo de obras para promotores, inversores y empresas que necesitan una supervisión independiente durante la ejecución de sus proyectos.
-</p>
-
-<p>
-Nuestro objetivo es garantizar el control de costes, la correcta ejecución técnica y el cumplimiento de plazos en cada proyecto.
+AURUM Project Management ofrece supervisión independiente de proyectos de construcción,
+ayudando a promotores e inversores a mantener control sobre costes, plazos y calidad de ejecución.
 </p>
 
 </section>
 
 <footer>
-<p>AURUM Project Management</p>
+
+AURUM Project Management
+
 </footer>
 
 </body>
