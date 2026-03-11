@@ -1,47 +1,15 @@
-[20:40, 11/3/2026] Marc: <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
+
 <meta name="google-site-verification" content="rr5eOLPJHK_4WiSlFuIfZxkDiUmyTN9hTQI7ecZgD2A" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>AURUM Project Management</title>
 
-<meta name="description" content="Supervisión externa de obra en Mallorca. Control técnico, project management y gestión de proyectos para promotores, inversores y propietarios.">
-
-<style>
-
-body{
-margin:0;
-font-family:Arial, Helvetica, sans-serif;
-background:#111;
-color:white;
-scroll-behavior:smooth;
-}
-
-/* HERO */
-
-.hero{
-height:100vh;
-background:url("https://images.unsplash.com/photo-1503387762-592deb58ef4e") center/cover no-repeat;
-display:flex;
-flex-direction:column;
-justify-content:cente…
-[20:51, 11/3/2026] Marc: <!DOCTYPE html>
-<html lang="es">
-
-<head>
-
-<meta name="google-site-verification" content="rr5eOLPJHK_4WiSlFuIfZxkDiUmyTN9hTQI7ecZgD2A" />
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>AURUM Project Management | Supervisión de obra en Mallorca</title>
-
-<meta name="description" content="Supervisión externa de obra en Mallorca. Control técnico independiente y gestión de proyectos para promotores, inversores y propietarios.">
-
-<meta name="keywords" content="project management Mallorca, supervisión de obra Mallorca, control de obra Mallorca, construction supervision Mallorca, project manager Mallorca">
+<meta name="description" content="Supervisión externa de obra en Mallorca para promotores, inversores y propietarios.">
 
 <style>
 
@@ -71,13 +39,11 @@ font-size:70px;
 letter-spacing:8px;
 color:#d4af37;
 margin:0;
-animation:fadeUp 1.5s ease;
 }
 
 .hero p{
 font-size:22px;
-max-width:750px;
-animation:fadeUp 2s ease;
+max-width:700px;
 }
 
 .boton{
@@ -89,12 +55,6 @@ text-decoration:none;
 font-weight:bold;
 border-radius:6px;
 font-size:18px;
-transition:0.3s;
-animation:fadeUp 2.5s ease;
-}
-
-.boton:hover{
-transform:scale(1.05);
 }
 
 /* SECCIONES */
@@ -102,7 +62,7 @@ transform:scale(1.05);
 section{
 max-width:1100px;
 margin:auto;
-padding:120px 20px;
+padding:100px 20px;
 }
 
 h2{
@@ -110,7 +70,16 @@ color:#d4af37;
 margin-bottom:40px;
 }
 
-/* IMAGEN SECCIÓN */
+/* CARDS */
+
+.card{
+background:#1c1c1c;
+padding:30px;
+margin-bottom:20px;
+border-radius:10px;
+}
+
+/* SECCION IMAGEN */
 
 .seccion-imagen{
 background-size:cover;
@@ -130,25 +99,10 @@ background:rgba(0,0,0,0.75);
 }
 
 .seccion-imagen .contenido{
+position:relative;
 max-width:1100px;
 margin:auto;
-position:relative;
 z-index:2;
-}
-
-/* CARDS */
-
-.card{
-background:#1c1c1c;
-padding:35px;
-margin-bottom:25px;
-border-radius:10px;
-transition:0.4s;
-}
-
-.card:hover{
-transform:translateY(-8px);
-box-shadow:0 10px 30px rgba(0,0,0,0.5);
 }
 
 /* FOOTER */
@@ -168,41 +122,10 @@ bottom:25px;
 right:25px;
 background:#25D366;
 color:white;
-padding:16px 20px;
+padding:15px 20px;
 border-radius:30px;
-font-weight:bold;
 text-decoration:none;
-box-shadow:0 4px 10px rgba(0,0,0,0.4);
-}
-
-/* ANIMACIONES */
-
-@keyframes fadeUp{
-
-0%{
-opacity:0;
-transform:translateY(40px);
-}
-
-100%{
-opacity:1;
-transform:translateY(0);
-}
-
-}
-
-/* RESPONSIVE */
-
-@media(max-width:768px){
-
-.hero h1{
-font-size:40px;
-}
-
-.hero p{
-font-size:18px;
-}
-
+font-weight:bold;
 }
 
 </style>
@@ -219,8 +142,7 @@ font-size:18px;
 
 <p>
 Control técnico independiente de obras en Mallorca para promotores, inversores y propietarios.
-
-Supervisión profesional para proteger la inversión, controlar costes y asegurar la correcta ejecución del proyecto.
+Supervisión profesional para proteger la inversión y asegurar la correcta ejecución del proyecto.
 </p>
 
 <a class="boton" href="mailto:aurumprojectmanagement@gmail.com">
@@ -234,11 +156,15 @@ Solicitar supervisión de obra
 
 <h2>Servicios</h2>
 
-✔ Supervisión externa de obra<br><br>
-✔ Control de costes y certificaciones<br><br>
-✔ Coordinación de industriales<br><br>
-✔ Seguimiento de plazos<br><br>
-✔ Informes técnicos para la propiedad
+<div class="card">Supervisión externa de obra</div>
+
+<div class="card">Control de costes y certificaciones</div>
+
+<div class="card">Coordinación de industriales</div>
+
+<div class="card">Seguimiento de plazos</div>
+
+<div class="card">Informes técnicos para la propiedad</div>
 
 </section>
 
@@ -248,22 +174,22 @@ Solicitar supervisión de obra
 <h2>Problemas habituales en una obra</h2>
 
 <div class="card">
-<h3>Desviaciones de presupuesto</h3>
-Durante la ejecución pueden aparecer sobrecostes si no existe un control técnico independiente.
+<b>Desviaciones de presupuesto</b><br>
+Durante la ejecución pueden aparecer sobrecostes si no existe control técnico independiente.
 </div>
 
 <div class="card">
-<h3>Errores de ejecución</h3>
+<b>Errores de ejecución</b><br>
 Pequeños errores constructivos pueden convertirse en problemas importantes si no se detectan a tiempo.
 </div>
 
 <div class="card">
-<h3>Retrasos en la planificación</h3>
+<b>Retrasos en la planificación</b><br>
 La falta de coordinación entre industriales suele provocar retrasos acumulados.
 </div>
 
 <div class="card">
-<h3>Falta de control del promotor</h3>
+<b>Falta de control del promotor</b><br>
 Muchos propietarios no pueden estar presentes durante toda la obra.
 </div>
 
@@ -295,41 +221,30 @@ Supervisión continua del avance real.
 
 <section>
 
-<h2>Supervisión para inversores extranjeros</h2>
-
-Muchos inversores adquieren propiedades en Mallorca sin poder estar presentes durante todo el proceso de construcción.
-
-AURUM Project Management actúa como representante técnico del promotor durante la obra, supervisando el avance real y enviando informes con fotografías.
-
-</section>
-
-
-<section>
-
 <h2>Cómo trabajamos</h2>
 
 <div class="card">
-<h3>1. Análisis del proyecto</h3>
+<b>1. Análisis del proyecto</b><br>
 Revisión del proyecto técnico y presupuesto.
 </div>
 
 <div class="card">
-<h3>2. Visitas de supervisión</h3>
+<b>2. Visitas de supervisión</b><br>
 Seguimiento periódico del avance real de obra.
 </div>
 
 <div class="card">
-<h3>3. Control de certificaciones</h3>
+<b>3. Control de certificaciones</b><br>
 Verificación de partidas ejecutadas.
 </div>
 
 <div class="card">
-<h3>4. Informes para la propiedad</h3>
+<b>4. Informes para la propiedad</b><br>
 Informes claros con fotografías del estado de obra.
 </div>
 
 <div class="card">
-<h3>5. Evaluación de cambios</h3>
+<b>5. Evaluación de cambios</b><br>
 Análisis técnico de modificaciones durante la ejecución.
 </div>
 
@@ -355,7 +270,7 @@ Trabajo ayudando a promotores, inversores y propietarios a controlar la ejecuci�
 
 <h2>Solicitar supervisión de obra</h2>
 
-Si eres promotor, inversor o propietario y necesitas control técnico independiente durante la ejecución de tu proyecto, puedes contactar directamente.
+Si eres promotor, inversor o propietario y necesitas control técnico independiente durante la ejecución de tu proyecto puedes contactar directamente.
 
 <br><br>
 
